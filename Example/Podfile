@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UserAnalyticsIOS_Example' do
+  pod 'UserAnalyticsIOS', :path => '../'
+
+  target 'UserAnalyticsIOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
